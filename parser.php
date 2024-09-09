@@ -175,7 +175,7 @@ function followLinks($url) {
     }
 }
 
-$startUrl = "https://www.bbc.com/";
+$startUrl = "https://www.skysports.com/football";
 
 
 followLinks($startUrl);
