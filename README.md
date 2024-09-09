@@ -27,3 +27,7 @@ This is a simple search engine project that crawls websites, indexes content, an
 - MySQL 5.7 or higher
 - Web server (e.g., Apache, Nginx)
 - Composer (for PHP dependencies)
+
+
+https://github.com/user-attachments/assets/00df5ca1-2f6b-4b6c-9724-8e13aa84f62e
+
