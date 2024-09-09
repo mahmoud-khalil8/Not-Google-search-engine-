@@ -1,4 +1,6 @@
 <?php
+include("config.php");
+
     if(isset($_GET['words'])){
         $words = $_GET['words'];
     }
@@ -44,6 +46,12 @@
             font-weight: bold;
             color: #2F3645;
             margin-right: 2rem;
+
+        }
+        .logo2 {
+            font-size: 13px;
+            font-weight: bold;
+            color: #2F3645;
 
         }
          a{
@@ -126,6 +134,7 @@
             <a href="index.php">
 
                 <div class="logo"> مش جوجل </div>
+                <div class="logo2">a search engine</div>
             </a>
             <form action="search.php" method='GET'>
                 <input type="text" class="search-bar" placeholder="Search Here" name="words">
@@ -141,6 +150,10 @@
                     <a class='tab' href='<?php echo "search.php?words=$words&type=images"; ?>'>Images</a>
                 </li>
             </ul>
+        </div>
+        <div class="search_results">
+
+
         </div>
     </div>
 </body>
