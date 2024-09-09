@@ -175,7 +175,7 @@ function followLinks($url) {
     }
 }
 
-$startUrl = "https://www.skysports.com/football";
+$startUrl = "https://techxplore.com/";
 
 
 followLinks($startUrl);

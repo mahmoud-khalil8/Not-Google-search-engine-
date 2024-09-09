@@ -47,9 +47,9 @@ class siteResults{
             $resultsHtml.="<div class='resultsContainer'>
             
             <h3 class='title'>
-             <a class='result' href='url'>$title</a><br>
+             <a class='result' href='$url' data-linkId='$id'>$title</a><br>
              </h3>
-             <span class='url'>$url</span><br>
+             <span class='url' >$url</span><br>
              <span class='description'>$description</span>
             </div>
             ";
